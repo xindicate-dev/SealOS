@@ -1,0 +1,19 @@
+# --- Core & Terminal ---
+task-xfce-desktop
+sudo
+fastfetch
+fonts-inter
+
+# --- Hardware & Firmware ---
+firmware-linux
+firmware-linux-nonfree
+network-manager-gnome
+user-setup
+xfce4-power-manager
+xfce4-pulseaudio-plugin
+
+# --- THE MONOCHROME LOOK ---
+xfce4-whiskermenu-plugin
+
+# --- Browser ---
+firefox-esr
