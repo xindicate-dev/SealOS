@@ -2,8 +2,8 @@
 
 <channel name="xsettings" version="1.0">
   <property name="Net" type="empty">
-    <property name="ThemeName" type="string" value="Arc-Dark"/>
-    <property name="IconThemeName" type="string" value="Papirus-Dark"/>
+    <property name="ThemeName" type="string" value="Greybird-dark"/>
+    <property name="IconThemeName" type="string" value="Numix-Light"/>
     <property name="DoubleClickTime" type="empty"/>
     <property name="DoubleClickDistance" type="empty"/>
     <property name="DndDragThreshold" type="empty"/>
@@ -40,6 +40,6 @@
     <property name="WindowScalingFactor" type="empty"/>
   </property>
   <property name="Xfce" type="empty">
-    <property name="SyncThemes" type="bool" value="false"/>
+    <property name="SyncThemes" type="bool" value="true"/>
   </property>
 </channel>
