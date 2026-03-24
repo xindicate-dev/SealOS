@@ -1,0 +1,14 @@
+set -e
+
+# 1. Remove the "desktop-base" package assets (Wallpapers, Logos)
+rm -rf /usr/share/desktop-base
+rm -rf /usr/share/images/desktop-base
+rm -rf /usr/share/icons/desktop-base
+
+# 2. Remove Vendor Logos & Pixmaps
+rm -rf /usr/share/images/vendor-logos
+rm -f /usr/share/pixmaps/debian-logo.png
+rm -f /usr/share/pixmaps/debian-swirl.png
+
+# 3. Remove Debian-specific documentation links from the menu
+rm -f /usr/share/applications/debian-help.desktop
