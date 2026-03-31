@@ -19,13 +19,13 @@ LB_BOOTAPPEND_INSTALL=""
 LB_BOOTAPPEND_LIVE_FAILSAFE="boot=live components memtest noapic noapm nodma nomce nosmp nosplash vga=788"
 
 # Set BIOS bootloader
-LB_BOOTLOADER_BIOS="syslinux"
+LB_BOOTLOADER_BIOS="grub-pc"
 
 # Set EFI bootloader
 LB_BOOTLOADER_EFI="grub-efi"
 
 # Set bootloaders
-LB_BOOTLOADERS=""
+LB_BOOTLOADERS="grub-pc grub-efi"
 
 # Set checksums
 LB_CHECKSUMS="sha256"
