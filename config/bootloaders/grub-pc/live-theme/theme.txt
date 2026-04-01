@@ -1,4 +1,4 @@
-desktop-image: "../splash.svg"
+desktop-image: "../background.png"
 title-color: "#333333"
 title-font: "Unifont Regular 16"
 title-text: "Live Boot Menu with GRUB"
